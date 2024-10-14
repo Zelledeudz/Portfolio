@@ -1,0 +1,24 @@
+---
+import Footer from '@components/Footer.astro';
+import Navbar from '@components/Navbar.svelte';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+---
+
+<html lang='ja'>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+  </head>
+  <body class='min-h-screen text-gray-900 bg-gray-100 md:ml-50'>
+    <Navbar />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
