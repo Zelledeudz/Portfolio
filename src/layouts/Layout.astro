@@ -13,8 +13,13 @@ const { title, description } = Astro.props;
   <head>
     <meta charset='utf-8' />
     <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <script>
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
   </head>
-  <body class='min-h-screen text-gray-900 bg-gray-100 md:ml-50'>
+  <body class='min-h-screen p-4 text-black bg-gray-1 dark:bg-black dark:text-gray-1 md:ml-50'>
     <Navbar />
     <main>
       <slot />
