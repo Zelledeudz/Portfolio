@@ -2,15 +2,13 @@
 import { defineConfig } from 'astro/config';
 import UnoCSS from 'unocss/astro';
 import svelte from '@astrojs/svelte';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [
-    UnoCSS({
-      injectReset: true,
-    }),
-    svelte(),
-  ],
+  integrations: [UnoCSS({
+    injectReset: true,
+  }), svelte(), sitemap()],
   vite: {
     resolve: {
       alias: {
