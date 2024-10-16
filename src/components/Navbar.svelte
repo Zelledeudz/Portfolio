@@ -29,7 +29,7 @@
       href: '#socials',
       icon: 'i-fluent:people-add-32-regular',
       label: 'Socials',
-    }
+    },
   ];
 </script>
 
@@ -42,7 +42,7 @@
     {#each navItems as { href, icon, label }}
       <li class="relative flex items-center group">
         <a
-          href={href}
+          {href}
           class="flex items-center w-full h-full py-2 transition-all duration-300 ease-in-out transform rounded-md text-6 md:gap-x-4 md:py-0 md:px-4 hover:font-bold group-hover:scale-110"
         >
           <span class={icon + ' w-8 h-8 md:w-6 md:h-6 block'}></span>
