@@ -14,14 +14,19 @@ const { title, description } = Astro.props;
     <meta charset='utf-8' />
     <meta name='viewport' content='width=device-width, initial-scale=1' />
     <script>
-      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      if (
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      ) {
         document.documentElement.classList.add('dark');
       }
     </script>
   </head>
-  <body class='mb-16 overflow-x-hidden text-black bg-gray-1 dark:bg-black dark:text-gray-1 md:mb-0 md:ml-50 selection:text-pink-6 scroll-smooth'>
+  <body
+    class='mb-16 overflow-x-hidden font-sans text-black bg-gray-1 dark:bg-black dark:text-gray-1 md:mb-0 md:ml-50 selection:text-pink-6 scroll-smooth'
+  >
     <Navbar />
-    <main class="mx-4 my-8 rounded">
+    <main class='mx-4 my-8 rounded'>
       <slot />
     </main>
     <Footer />
