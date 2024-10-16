@@ -17,6 +17,7 @@ export default defineConfig({
         '@components': '/src/components',
         '@layouts': '/src/layouts',
         '@lib': '/src/lib',
+        '@': '',
       },
     },
   },
