@@ -19,9 +19,9 @@ const { title, description } = Astro.props;
       }
     </script>
   </head>
-  <body class='min-h-screen p-4 text-black bg-gray-1 dark:bg-black dark:text-gray-1 md:ml-50'>
+  <body class='mb-16 overflow-x-hidden text-black bg-gray-1 dark:bg-black dark:text-gray-1 md:mb-0 md:ml-50 selection:text-pink-6 scroll-smooth'>
     <Navbar />
-    <main>
+    <main class="mx-4 my-8 rounded">
       <slot />
     </main>
     <Footer />
