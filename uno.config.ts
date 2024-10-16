@@ -9,7 +9,7 @@ export default defineConfig({
     presetWebFonts({
       provider: 'bunny',
       fonts: {
-        Sans: ['IBM Plex Sans'], // You can add your favorite fonts here.
+        sans: ['IBM Plex Sans'], // You can add your favorite fonts here.
       },
     }),
   ],
