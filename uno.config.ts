@@ -1,7 +1,16 @@
 import { defineConfig } from 'unocss';
 import { presetUno } from 'unocss';
-import presetIcons from 'unocss/preset-icons';
+import { presetIcons, presetWebFonts } from 'unocss';
 
 export default defineConfig({
-  presets: [presetUno(), presetIcons()],
+  presets: [
+    presetUno(),
+    presetIcons(),
+    presetWebFonts({
+      provider: 'bunny',
+      fonts: {
+        Sans: ['IBM Plex Sans'], // You can add your favorite fonts here.
+      },
+    }),
+  ],
 });
