@@ -8,7 +8,7 @@
   const name = 'Dampuzakura';
   const introduction =
     'I am a high school student from Japan who enjoys developing and taking photos.';
-  const avatar = '/images/avatar.png';
+  const avatar = '/dz-portfolio/images/avatar.png'; // Please enter the absolute path (including subpaths)
   const about =
     'I am a high school student from Japan. I enjoy developing and taking photos. I am not very good at creating websites, but I did my best to make this one. I usually hang out on Mastodon. Please follow me there. I want to make many friends and get along with everyone. Thank you for reading this site!';
   const place = 'Japan';
