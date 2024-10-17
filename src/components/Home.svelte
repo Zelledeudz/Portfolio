@@ -255,7 +255,7 @@
           <a
             href={social.url}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer me"
             class="flex items-center justify-center text-pink-6 dark:text-pink-4 hover:underline gap-x-2"
           >
           {#if social.icon != ''}
