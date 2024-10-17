@@ -5,15 +5,15 @@
    * Fluent UI System Icons: https://icones.js.org/collection/fluent
    * Simple Icons: https://icones.js.org/collection/simple-icons
    */
-  export const name = 'Dampuzakura';
-  export const introduction =
+  const name = 'Dampuzakura';
+  const introduction =
     'I am a high school student from Japan who enjoys developing and taking photos.';
-  export const avatar = '/images/avatar.png';
-  export const about =
+  const avatar = '/images/avatar.png';
+  const about =
     'I am a high school student from Japan. I enjoy developing and taking photos. I am not very good at creating websites, but I did my best to make this one. I usually hang out on Mastodon. Please follow me there. I want to make many friends and get along with everyone. Thank you for reading this site!';
-  export const place = 'Japan';
-  export const timezone = 'Asia/Tokyo +9:00';
-  export const experiences = [
+  const place = 'Japan';
+  const timezone = 'Asia/Tokyo +9:00';
+  const experiences = [
     {
       title: 'Developing',
       description:
@@ -30,7 +30,7 @@
         "I haven't written many articles. Currently, I am creating a website to write a blog, so please look forward to it!",
     },
   ];
-  export const skills = [
+  const skills = [
     { name: 'HTML', icon: 'i-simple-icons:html5' },
     { name: 'CSS', icon: 'i-simple-icons:css3' },
     { name: 'UnoCSS', icon: 'i-simple-icons:unocss' },
@@ -48,7 +48,7 @@
     { name: 'Linux', icon: 'i-simple-icons:linux' },
     { name: 'etc...', icon: '' },
   ];
-  export const works = [
+  const works = [
     {
       title: "Dampuzakura's Website",
       description:
@@ -71,7 +71,7 @@
       linkText: 'Try it!',
     },
   ];
-  export const socials = [
+  const socials = [
     {
       name: 'dampuzakura.github.io',
       url: 'https://dampuzakura.github.io',
