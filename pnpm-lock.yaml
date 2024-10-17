@@ -20,6 +20,9 @@ importers:
       astro:
         specifier: ^4.16.2
         version: 4.16.2(rollup@4.24.0)(typescript@5.6.3)
+      astro-analytics:
+        specifier: ^2.7.0
+        version: 2.7.0
       astro-seo:
         specifier: ^0.8.4
         version: 0.8.4(typescript@5.6.3)
@@ -980,6 +983,9 @@ packages:
 
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
+
+  astro-analytics@2.7.0:
+    resolution: {integrity: sha512-/qctBn7LF9DS3ff2YYFrYtCkLLw2fboPDJUgg3HErygGbEBvebW/eGRftZH4ykDJhlCvwTsSEKz/vff7WllyAw==}
 
   astro-seo@0.8.4:
     resolution: {integrity: sha512-Ou1vzQSXAxa0K8rtNtXNvSpYqOGEgMhh0immMxJeXmbVZac3UKCNWAoXWyOQDFYsZvBugCRSg0N1phBqPMVgCw==}
@@ -3342,6 +3348,8 @@ snapshots:
   aria-query@5.3.2: {}
 
   array-iterate@2.0.1: {}
+
+  astro-analytics@2.7.0: {}
 
   astro-seo@0.8.4(typescript@5.6.3):
     dependencies:
