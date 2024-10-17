@@ -15,7 +15,9 @@ export default defineConfig({
     }),
     svelte(),
     sitemap(),
-    robotsTxt(),
+    robotsTxt({
+      sitemapBaseFileName: 'sitemap-index',
+    }),
   ],
   vite: {
     resolve: {
