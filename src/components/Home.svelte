@@ -1,5 +1,4 @@
 <script lang="ts">
-  // import { name, introduction, avatar, about, place, timezone, skills, experiences, works, socials } from '@/index';
   /*
    * Please set the following variables to your liking!
    * You can use Fluent UI System Icons and Simple Icons for the icons!
