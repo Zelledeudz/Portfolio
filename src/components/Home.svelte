@@ -76,7 +76,7 @@
     {
       name: 'dampuzakura.github.io',
       url: 'https://dampuzakura.github.io',
-      icon: 'i-fluent:link-48-regular',
+      icon: '', // If the icon field is empty, a link icon will be automatically assigned.
     },
     {
       name: '@dampuzakura@fedibird.com',
@@ -258,9 +258,11 @@
             rel="noopener noreferrer"
             class="flex items-center justify-center text-pink-6 dark:text-pink-4 hover:underline gap-x-2"
           >
-            {#if social.icon}
-              <span class={`block ${social.icon}`} />
-            {/if}
+          {#if social.icon != ''}
+            <span class={`block ${social.icon}`} />
+          {:else if social.icon == ''}
+            <span class='block i-fluent:link-48-regular' />
+          {/if}
             {social.name}
           </a>
         </li>
