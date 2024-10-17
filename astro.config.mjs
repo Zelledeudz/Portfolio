@@ -6,6 +6,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://dampuzakura.github.io', // Please enter the URL where you will host your website.
+  base: '/astro-sveltekit-blog', // If you are hosting your website at a subpath, enter it here.
   integrations: [UnoCSS({
     injectReset: true,
   }), svelte(), sitemap()],
