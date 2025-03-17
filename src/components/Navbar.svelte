@@ -3,17 +3,17 @@
     {
       href: '#',
       icon: 'i-fluent:home-48-regular',
-      label: 'Home',
+      label: 'Accueil',
     },
     {
       href: '#about',
       icon: 'i-fluent:info-48-regular',
-      label: 'About',
+      label: 'A propos',
     },
     {
       href: '#skills',
       icon: 'i-fluent:toolbox-32-regular',
-      label: 'Skills',
+      label: 'Compétence',
     },
     {
       href: '#experiences',
@@ -23,19 +23,20 @@
     {
       href: '#works',
       icon: 'i-fluent:content-view-gallery-28-regular',
-      label: 'Works',
+      label: 'Mes projets',
     },
     {
       href: '#socials',
       icon: 'i-fluent:people-add-32-regular',
-      label: 'Socials',
+      label: 'Contact',
     },
   ];
 </script>
 
 <nav
-  class="fixed bottom-0 w-full h-16 text-white shadow-xl md:h-full dark:text-gray-1 bg-gradient-to-r from-blue-6 to-purple-6 from-blue-9 to-purple-9 md:left-0 md:top-0 md:w-50 backdrop-blur-lg rounded-t-2xl md:border-0 md:rounded-lt-0 md:rounded-r-3xl z-99"
+class="fixed bottom-0 w-full h-16 text-white shadow-xl md:h-full dark:text-gray-1 bg-gradient-to-r from-orange-6 to-red-6 dark:from-orange-4 dark:to-red-4 md:left-0 md:top-0 md:w-50 backdrop-blur-lg rounded-t-2xl md:border-0 md:rounded-lt-0 md:rounded-r-3xl z-99"
 >
+
   <ul
     class="flex flex-row justify-center w-full h-full md:flex-col gap-x-4 md:gap-y-2"
   >

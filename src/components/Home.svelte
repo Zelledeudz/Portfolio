@@ -5,48 +5,46 @@
    * Fluent UI System Icons: https://icones.js.org/collection/fluent
    * Simple Icons: https://icones.js.org/collection/simple-icons
    */
-  const name = 'Dampuzakura';
+
+  const name = 'Thomas CHAGNEAU';
   const introduction =
-    'I am a high school student from Japan who enjoys developing and taking photos.';
-  const avatar = '/dz-portfolio/images/avatar.png'; // Please enter the absolute path (including subpaths)
+    "Bienvenue sur mon Portfolio ! Je suis étudiant en bac+2 développement informatique ";
+  const avatar = '../public/images/oui.jpg'; // Please enter the absolute path (including subpaths)
   const about =
-    'I am a high school student from Japan. I enjoy developing and taking photos. I am not very good at creating websites, but I did my best to make this one. I usually hang out on Mastodon. Please follow me there. I want to make many friends and get along with everyone. Thank you for reading this site!';
-  const place = 'Japan';
-  const timezone = 'Asia/Tokyo +9:00';
+    "Je suis étudiant en développement d'applications mobiles, actuellement en Bac +2. " + " Passionné par la technologie et l'innovation j'ai de l'expérience dans la création d'application mobile sous android." + " Toujours curieux, j'apprends en continu pour améliorer mes compétences et rester à jour dans ce domaine en constante évolution";
+  const place = 'France';
+  const timezone = 'Europe/Paris +1:00';
   const experiences = [
     {
-      title: 'Developing',
+      title: 'Developpement web',
       description:
-        'I have created several websites and web applications using Astro and other technologies. This website is also built with Astro! Additionally, it is styled with UnoCSS!',
+        "J'ai crée plusieurs site web dans le cadre de mon parcours scolaire ainsi que pour des formations ou stage.",
     },
     {
-      title: 'Photography',
+      title: 'Developpement mobile',
       description:
-        'I usually take various photos and post them on Mastodon. You can check out the photos I have taken on my Mastodon!',
+        "J'ai également développer des applications mobile Android via Android studio en Java dans le cadre de mon BTS",
     },
     {
-      title: 'Writing',
+      title: 'Gestion de base de données',
       description:
-        "I haven't written many articles. Currently, I am creating a website to write a blog, so please look forward to it!",
+        "Création et utilisation de base de données via postgreSQL ou mySQL dans le cadre de mon BTS",
     },
   ];
   const skills = [
     { name: 'HTML', icon: 'i-simple-icons:html5' },
     { name: 'CSS', icon: 'i-simple-icons:css3' },
-    { name: 'UnoCSS', icon: 'i-simple-icons:unocss' },
+    { name: 'Boostrap', icon: 'i-simple-icons:bootstrap' },
     { name: 'JavaScript', icon: 'i-simple-icons:javascript' },
-    { name: 'TypeScript', icon: 'i-simple-icons:typescript' },
-    { name: 'Svelte', icon: 'i-simple-icons:svelte' },
     { name: 'Astro', icon: 'i-simple-icons:astro' },
-    { name: 'Golang', icon: 'i-simple-icons:go' },
     { name: 'Python', icon: 'i-simple-icons:python' },
     { name: 'Git', icon: 'i-simple-icons:git' },
     { name: 'GitHub', icon: 'i-simple-icons:github' },
     { name: 'VSCode', icon: 'i-simple-icons:visualstudiocode' },
-    { name: 'Powershell', icon: 'i-simple-icons:powershell' },
     { name: 'Windows', icon: 'i-simple-icons:windows' },
     { name: 'Linux', icon: 'i-simple-icons:linux' },
-    { name: 'etc...', icon: '' },
+    { name: 'MySQL', icon: 'i-simple-icons:mysql' },
+    { name: 'Java', icon: 'i-simple-icons:android' },
   ];
   const works = [
     {
@@ -122,7 +120,7 @@
     <h1
       class="mb-4 text-5xl font-bold text-transparent bg-gradient-to-r from-orange-6 to-red-6 dark:from-orange-4 dark:to-red-4 bg-clip-text md:text-6xl"
     >
-      Hello, my name is {name}
+      {name}
     </h1>
     <p class="text-3xl text-gray-8 dark:text-gray-2">
       {introduction}
@@ -142,7 +140,7 @@
     <h2
       class="mb-4 text-4xl font-bold text-center text-gray-9 dark:text-gray-1"
     >
-      About Me
+      A propos de moi
     </h2>
     <p class="text-lg text-center text-gray-7 dark:text-gray-3">
       {about}
