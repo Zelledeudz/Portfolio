@@ -9,7 +9,7 @@
   const name = 'Thomas CHAGNEAU';
   const introduction =
     "Bienvenue sur mon Portfolio ! Je suis étudiant en bac+2 développement informatique ";
-  const avatar = '../public/images/oui.jpg'; // Please enter the absolute path (including subpaths)
+  const avatar = '../public/images/unnamed.jpg'; // Please enter the absolute path (including subpaths)
   const about =
     "Je suis étudiant en développement d'applications mobiles, actuellement en Bac +2. " + " Passionné par la technologie et l'innovation j'ai de l'expérience dans la création d'application mobile sous android." + " Toujours curieux, j'apprends en continu pour améliorer mes compétences et rester à jour dans ce domaine en constante évolution";
   const place = 'France';
@@ -45,70 +45,36 @@
     { name: 'Linux', icon: 'i-simple-icons:linux' },
     { name: 'MySQL', icon: 'i-simple-icons:mysql' },
     { name: 'Java', icon: 'i-simple-icons:android' },
+    { name: 'Postman', icon: 'i-simple-icons:postman' },
   ];
   const works = [
     {
-      title: "Dampuzakura's Website",
+      title: "Site vitrine GRAD",
       description:
-        'This website is my portfolio site. I created this site to introduce myself and my works. I hope you enjoy it!',
-      url: 'https://dampuzakura.github.io',
+        "Site vitrine d'une entreprise d'installation de terasse, c'est un site fait en HTML, CSS et JS ainsi que bootstrap dans le cadre d'un devoir de première année",
+      url: '',
       linkText: 'Visit',
     },
     {
-      title: "Dampuzakura's Blog",
+      title: "Application station de ski",
       description:
-        'I am currently creating a blog site. I will write articles about various things there. Please look forward to it!',
+        "Application de gestion d'une station de ski faites en Java pour des mobiles Android pour un projet de deuxième année",
       url: '',
       linkText: '',
     },
     {
-      title: 'DZ Quick Card',
+      title: 'Stage Forapps',
       description:
-        'DZ Quick Card is a simple web application that allows you to create a business card. You can create a card with your name and a message. Please try it!',
-      url: 'https://dampuzakura.github.io/dz-quick-card',
-      linkText: 'Try it!',
+        "Découverte de la technologie PowerApps , pendant le stage de deuxième année , qui m'a permis de découvrir la BI ou la création/utilisation de CRM",
+      url: '',
+      linkText: 'Try it',
     },
   ];
   const socials = [
     {
-      name: 'dampuzakura.github.io',
-      url: 'https://dampuzakura.github.io',
-      icon: '', // If the icon field is empty, a link icon will be automatically assigned.
-    },
-    {
-      name: '@dampuzakura@fedibird.com',
-      url: 'https://fedibird.com/@dampuzakura',
-      icon: 'i-simple-icons:mastodon',
-    },
-    {
-      name: '@dampuzakura',
-      url: 'https://github.com/dampuzakura',
+      name: '@Zelledeudz',
+      url: 'https://github.com/Zelledeudz',
       icon: 'i-simple-icons:github',
-    },
-    {
-      name: '@dampuzakura',
-      url: 'https://x.com/dampuzakura',
-      icon: 'i-simple-icons:x',
-    },
-    {
-      name: '@dampuzakura.github.io',
-      url: 'https://bsky.app/profile/dampuzakura.github.io',
-      icon: 'i-simple-icons:bluesky',
-    },
-    {
-      name: '@dampuzakura@fedimovie.com',
-      url: 'https://fedimovie.com/@dampuzakura',
-      icon: 'i-simple-icons:peertube',
-    },
-    {
-      name: '@dampuzakura@fedisnap.com',
-      url: 'https://fedisnap.com/@dampuzakura',
-      icon: 'i-simple-icons:pixelfed',
-    },
-    {
-      name: '@dampuzakura@misskey.io',
-      url: 'https://misskey.io/@dampuzakura',
-      icon: 'i-simple-icons:misskey',
     },
   ];
 </script>
@@ -214,7 +180,7 @@
     <h2
       class="mb-4 text-4xl font-bold text-center text-gray-9 dark:text-gray-1"
     >
-      Works
+      Mes projets
     </h2>
     <ul class="grid grid-cols-1 gap-4 text-lg">
       {#each works as work}
