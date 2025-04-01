@@ -9,7 +9,7 @@
   const name = 'Thomas CHAGNEAU';
   const introduction =
     "Bienvenue sur mon Portfolio ! Je suis étudiant en bac+2 développement informatique ";
-  const avatar = '../public/images/oui.jpg'; // Please enter the absolute path (including subpaths)
+  const avatar = `${import.meta.env.BASE_URL}images/oui.jpg`; // Please enter the absolute path (including subpaths)
   const about =
     "Je suis étudiant en développement d'applications mobiles, actuellement en Bac +2. " + " Passionné par la technologie et l'innovation j'ai de l'expérience dans la création d'application mobile sous android." + " Toujours curieux, j'apprends en continu pour améliorer mes compétences et rester à jour dans ce domaine en constante évolution";
   const place = 'France';
