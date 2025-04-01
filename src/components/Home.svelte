@@ -18,12 +18,12 @@
     {
       title: 'Developpement web',
       description:
-        "J'ai crée plusieurs site web dans le cadre de mon parcours scolaire ainsi que pour des formations ou stage.",
+        "J'ai créé plusieurs sites web dans le cadre de mon parcours scolaire ainsi que pour des formations ou stage.",
     },
     {
       title: 'Developpement mobile',
       description:
-        "J'ai également développer des applications mobile Android via Android studio en Java dans le cadre de mon BTS",
+        "J'ai également développé des applications mobile Android via Android studio en Java dans le cadre de mon BTS",
     },
     {
       title: 'Gestion de base de données',
@@ -52,25 +52,54 @@
       title: "Site vitrine GRAD",
       description:
         "Site vitrine d'une entreprise d'installation de terasse, c'est un site fait en HTML, CSS et JS ainsi que bootstrap dans le cadre d'un devoir de première année",
-      url: 'https://github.com/Zelledeudz',
-      linkText: 'Voir le site',
-      image: '../public/images/GRAD.png',
+      url: 'https://github.com/Zelledeudz/GRAD',
+      linkText: 'Voir plus',
+      image: `${import.meta.env.BASE_URL}images/GRAD.png`,
+      updatedAt: ''
+    },
+    {
+      title: "Site formation Symfony",
+      description:
+        "Site d'une entreprise de gestion de formation avec plusieurs rôles (Stagiaire, formateur, technicien..) dans le cadre d'un projet de seconde année de BTS SIO",
+      url: 'https://github.com/Zelledeudz/GRAD',
+      linkText: 'Voir plus',
+      image: `${import.meta.env.BASE_URL}images/Formation.png`,
+      updatedAt: ''
     },
     {
       title: "Application station de ski",
       description:
         "Application de gestion d'une station de ski faites en Java pour des mobiles Android pour un projet de deuxième année",
       url: '',
-      linkText: '',
-      image: '../public/images/ski.jpg',
+      linkText: 'Voir plus',
+      image: `${import.meta.env.BASE_URL}images/ski.jpg`,
+      updatedAt: ''
+    },
+    {
+      title: "Utilisation de GLPI",
+      description:
+        "Création d'un script python afin de gérer l'envoi et la réception de ticket GLPI dans le cadre d'un projet de première année",
+      url: '',
+      image: `${import.meta.env.BASE_URL}images/Glpi.png`,
+      updatedAt: ''
     },
     {
       title: 'Stage Forapps',
       description:
         "Découverte de la technologie PowerApps , pendant le stage de deuxième année , qui m'a permis de découvrir la BI ou la création/utilisation de CRM",
       url: '',
-      linkText: 'Try it',
-      image: '../public/images/oui.jpg',
+      linkText: 'Voir plus',
+      image: `${import.meta.env.BASE_URL}images/Forapps.png`,
+      updatedAt: ''
+    },
+    {
+    title: "Fiche synthèse",
+      description:
+        "Application mobile Android de gestion d'une station de ski, développée en Java, avec une API Symfony pour la gestion des données, réalisée dans le cadre du projet de deuxième année.",
+      url: '',
+      linkText: 'Voir plus',
+      image: `${import.meta.env.BASE_URL}images/FicheSynthese.pdf`,
+      updatedAt: ''
     },
   ];
   const socials = [
@@ -103,7 +132,7 @@
 </div>
 <section
   id="about"
-  class="w-full p-4 py-8 border shadow border-gray-1 rounded-xl dark:border-gray-8"
+  class="w-full p-4 py-8 border shadow border-gray-3 rounded-xl dark:border-gray-8"
 >
   <div class="container mx-auto">
     <h2
@@ -133,7 +162,7 @@
 
 <section
   id="skills"
-  class="w-full p-4 py-8 mt-8 border shadow border-gray-1 rounded-xl dark:border-gray-8"
+  class="w-full p-4 py-8 mt-8 border shadow border-gray-3 rounded-xl dark:border-gray-8"
 >
   <div class="container mx-auto">
     <h2
@@ -155,7 +184,7 @@
 </section>
 <section
   id="experiences"
-  class="w-full p-4 py-8 mt-8 border shadow border-gray-1 rounded-xl dark:border-gray-8"
+  class="w-full p-4 py-8 mt-8 border shadow border-gray-3 rounded-xl dark:border-gray-8"
 >
   <div class="container mx-auto">
     <h2
@@ -177,7 +206,7 @@
 </section>
 <section
   id="works"
-  class="w-full p-4 py-8 mt-8 border shadow border-gray-1 rounded-xl dark:border-gray-8"
+  class="w-full p-4 py-8 mt-8 border shadow border-gray-3 rounded-xl dark:border-gray-8"
 >
   <div class="container mx-auto">
     <h2
@@ -187,7 +216,7 @@
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {#each works as work}
-        <div class="card mb-3 border rounded-lg overflow-hidden shadow-sm">
+        <div class="card mb-3 border rounded-lg overflow-hidden shadow-lg">
           {#if work.image}
             <img src={work.image} class="card-img-top w-full h-48 object-cover" alt={work.title}>
           {/if}
@@ -215,7 +244,7 @@
 </section>
 <section
   id="socials"
-  class="w-full p-4 py-8 mt-8 border shadow border-gray-1 rounded-xl dark:border-gray-8"
+  class="w-full p-4 py-8 mt-8 border shadow border-gray-3 rounded-xl dark:border-gray-8"
 >
   <div class="container mx-auto">
     <h2
