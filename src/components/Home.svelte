@@ -51,7 +51,7 @@
     {
       title: "Site vitrine GRAD",
       description:
-        "Site vitrine d'une entreprise d'installation de terasse, c'est un site fait en HTML, CSS et JS ainsi que bootstrap dans le cadre d'un devoir de première année",
+        "Site vitrine d’une entreprise d’installation de terrasses. Réalisé en HTML, CSS, JavaScript et Bootstrap dans le cadre d’un devoir de première année.",
       url: 'https://github.com/Zelledeudz/GRAD',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/GRAD.png`,
@@ -60,7 +60,7 @@
     {
       title: "Site formation Symfony",
       description:
-        "Site d'une entreprise de gestion de formation avec plusieurs rôles (Stagiaire, formateur, technicien..) dans le cadre d'un projet de seconde année de BTS SIO",
+        "Site d’une entreprise de gestion de formations, avec plusieurs rôles (stagiaire, formateur, technicien…), réalisé dans le cadre d’un projet de deuxième année de BTS SIO.",
       url: 'https://github.com/Zelledeudz/GRAD',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/Formation.png`,
@@ -69,7 +69,7 @@
     {
       title: "Application station de ski",
       description:
-        "Application de gestion d'une station de ski faites en Java pour des mobiles Android pour un projet de deuxième année",
+        "Application de gestion d’une station de ski, développée en Java pour Android, dans le cadre d’un projet de deuxième année.",
       url: '',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/ski.jpg`,
@@ -78,7 +78,7 @@
     {
       title: "Utilisation de GLPI",
       description:
-        "Création d'un script python afin de gérer l'envoi et la réception de ticket GLPI dans le cadre d'un projet de première année",
+        "Création d’un script Python pour gérer l’envoi et la réception de tickets GLPI, dans le cadre d’un projet de première année.",
       url: '',
       image: `${import.meta.env.BASE_URL}images/Glpi.png`,
       updatedAt: ''
@@ -86,17 +86,26 @@
     {
       title: 'Stage Forapps',
       description:
-        "Découverte de la technologie PowerApps , pendant le stage de deuxième année , qui m'a permis de découvrir la BI ou la création/utilisation de CRM",
+        "Découverte de la technologie PowerApps pendant un stage de deuxième année, avec une introduction à la Business Intelligence et à la création/utilisation de CRM.",
       url: '',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/Forapps.png`,
       updatedAt: ''
     },
     {
+      title: 'Veille informationel',
+      description:
+        "Réalisation d'une veille informationnelle sur les CMS.",
+      url: '',
+      linkText: 'Voir plus',
+      image: `${import.meta.env.BASE_URL}images/Veille.png`,
+      updatedAt: ''
+    },
+    {
     title: "Fiche synthèse",
       description:
-        "Application mobile Android de gestion d'une station de ski, développée en Java, avec une API Symfony pour la gestion des données, réalisée dans le cadre du projet de deuxième année.",
-      url: '',
+        "recap",
+      url: `${import.meta.env.BASE_URL}images/FicheSynthese.pdf`,
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/FicheSynthese.pdf`,
       updatedAt: ''
