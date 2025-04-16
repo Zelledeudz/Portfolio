@@ -9,7 +9,7 @@
   const name = 'Thomas CHAGNEAU';
   const introduction =
     "Bienvenue sur mon Portfolio ! Je suis étudiant en bac+2 développement informatique ";
-  const avatar = `${import.meta.env.BASE_URL}images/oui.jpg`; // Please enter the absolute path (including subpaths)
+  const avatar = `${import.meta.env.BASE_URL}images/moiCouleur.png`; // Please enter the absolute path (including subpaths)
   const about =
     "Je suis étudiant en développement d'applications mobiles, actuellement en Bac +2. " + " Passionné par la technologie et l'innovation j'ai de l'expérience dans la création d'application mobile sous android." + " Toujours curieux, j'apprends en continu pour améliorer mes compétences et rester à jour dans ce domaine en constante évolution";
   const place = 'France';
@@ -93,9 +93,45 @@
       updatedAt: ''
     },
     {
-      title: 'Veille informationel',
+      title: 'Veille informationelle',
       description:
         "Réalisation d'une veille informationnelle sur les CMS.",
+      url: '',
+      linkText: 'Voir plus',
+      image: `${import.meta.env.BASE_URL}images/Veille.png`,
+      updatedAt: ''
+    },
+    {
+      title: 'Application Ciné',
+      description:
+        "Réalisation d'une Création d'une application android de gestion de cinéma affichant les films et séries récemment sortis via une requête API. informationnelle sur les CMS.",
+      url: '',
+      linkText: 'Voir plus',
+      image: `${import.meta.env.BASE_URL}images/AppCine.png`,
+      updatedAt: ''
+    },
+    {
+      title: 'Othello (reversi) ',
+      description:
+        "Création d'une application Android d'un jeu d'Othello",
+      url: '',
+      linkText: 'Voir plus',
+      image: `${import.meta.env.BASE_URL}images/Othello.png`,
+      updatedAt: ''
+    },
+    {
+      title: 'Pronote like ',
+      description:
+        "Création d'une application android qui simule le principe de Pronote avec gestion cours etc",
+      url: '',
+      linkText: 'Voir plus',
+      image: `${import.meta.env.BASE_URL}images/Veille.png`,
+      updatedAt: ''
+    },
+    {
+      title: 'Pierre Papier Ciseaux',
+      description:
+        "Création d'une application android jouable à deux de PierrePapierCiseaux sur deux mobiles différents via Nearby",
       url: '',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/Veille.png`,
@@ -116,6 +152,11 @@
       name: '@Zelledeudz',
       url: 'https://github.com/Zelledeudz',
       icon: 'i-simple-icons:github',
+    },
+    {
+      name: 'Curriculum Vitae',
+      url: 'https://github.com/Zelledeudz',
+      icon: 'i-simple-icons:readthedocs',
     },
   ];
 </script>
@@ -227,7 +268,9 @@
       {#each works as work}
         <div class="card mb-3 border rounded-lg overflow-hidden shadow-lg">
           {#if work.image}
-            <img src={work.image} class="card-img-top w-full h-48 object-cover" alt={work.title}>
+            <a href={work.image} target="_blank" rel="noopener noreferrer">
+              <img src={work.image} class="card-img-top w-full h-48 object-contain" alt={work.title}>
+            </a>
           {/if}
           <div class="card-body p-4">
             <h3 class="card-title text-2xl font-bold mb-2">{work.title}</h3>
