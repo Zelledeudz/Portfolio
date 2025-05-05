@@ -125,7 +125,7 @@
         "Création d'une application android qui simule le principe de Pronote avec gestion cours etc",
       url: '',
       linkText: 'Voir plus',
-      image: `${import.meta.env.BASE_URL}images/Veille.png`,
+      image: `${import.meta.env.BASE_URL}images/pronote.png`,
       updatedAt: ''
     },
     {
@@ -134,7 +134,7 @@
         "Création d'une application android jouable à deux de PierrePapierCiseaux sur deux mobiles différents via Nearby",
       url: '',
       linkText: 'Voir plus',
-      image: `${import.meta.env.BASE_URL}images/Veille.png`,
+      image: `${import.meta.env.BASE_URL}images/shifumi.png`,
       updatedAt: ''
     },
     {
