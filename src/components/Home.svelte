@@ -141,9 +141,9 @@
     title: "Fiche synthèse",
       description:
         "recap",
-      url: `${import.meta.env.BASE_URL}images/FicheSynthese.pdf`,
-      linkText: 'Voir plus',
-      image: `${import.meta.env.BASE_URL}images/FicheSynthese.pdf`,
+      url: `${import.meta.env.BASE_URL}images/TabSynthese.pdf`,
+      linkText: 'Voir image',
+      image: `${import.meta.env.BASE_URL}images/ScreenTabSynthese.png`,
       updatedAt: ''
     },
   ];
