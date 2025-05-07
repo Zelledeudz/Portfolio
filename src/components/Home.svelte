@@ -16,9 +16,9 @@
   const timezone = 'Europe/Paris +1:00';
   const experiences = [
     {
-      title: 'Developpement web',
+      title: 'Stage découverte developpement web',
       description:
-        "J'ai créé plusieurs sites web dans le cadre de mon parcours scolaire ainsi que pour des formations ou stage.",
+        "Stage à l'EGS School, une école privée qui propose des cursus en informatique : découverte du JavaScript et de la logique algorithmique.",
     },
     {
       title: 'Developpement mobile',
