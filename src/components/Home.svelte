@@ -12,8 +12,6 @@
   const avatar = `${import.meta.env.BASE_URL}images/moiCouleur.png`; // Please enter the absolute path (including subpaths)
   const about =
     "Je suis étudiant en développement d'applications mobiles, actuellement en Bac +2. " + " Passionné par la technologie et l'innovation j'ai de l'expérience dans la création d'application mobile sous android." + " Toujours curieux, j'apprends en continu pour améliorer mes compétences et rester à jour dans ce domaine en constante évolution";
-  const place = 'France';
-  const timezone = 'Europe/Paris +1:00';
   const experiences = [
     {
       title: 'Stage découverte developpement web',
@@ -26,9 +24,9 @@
         "J'ai également développé des applications mobile Android via Android studio en Java dans le cadre de mon BTS",
     },
     {
-      title: 'Gestion de base de données',
+      title: 'Developpement web',
       description:
-        "Création et utilisation de base de données via postgreSQL ou mySQL dans le cadre de mon BTS",
+        "Création de site web via des langages comme HTML CSS PHP ou des framework comme Symfony ",
     },
   ];
   const skills = [
@@ -51,37 +49,45 @@
     {
       title: "Site vitrine GRAD",
       description:
-        "Site vitrine d’une entreprise d’installation de terrasses. Réalisé en HTML, CSS, JavaScript et Bootstrap dans le cadre d’un devoir de première année.",
+        "Site vitrine d'une entreprise d'installation de terrasses. Réalisé en HTML, PHP, CSS, JavaScript et Bootstrap dans le cadre d'un devoir de première année.",
       url: 'https://github.com/Zelledeudz/GRAD',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/GRAD.png`,
-      updatedAt: ''
+      updatedAt: '2023 - 2024',
+      techSkills: ['HTML', 'PHP', 'CSS', 'JavaScript', 'Bootstrap'],
+      competences: ['Développer la présence en ligne de l\'organisation', 'Participer à l\'évolution d\'un site Web']
     },
     {
       title: "Site formation Symfony",
       description:
-        "Site d’une entreprise de gestion de formations, avec plusieurs rôles (stagiaire, formateur, technicien…), réalisé dans le cadre d’un projet de deuxième année de BTS SIO.",
-      url: 'https://github.com/Zelledeudz/GRAD',
+        "Site d'une entreprise de gestion de formations, avec plusieurs rôles (stagiaire, formateur, technicien…), réalisé dans le cadre d'un projet de deuxième année de BTS SIO.",
+      url: 'https://github.com/Zelledeudz/centredeformation',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/Formation.png`,
-      updatedAt: ''
+      updatedAt: '2025',
+      techSkills: ['PHP', 'Symfony', 'MySQL', 'HTML', 'CSS'],
+      competences: ['Développer la présence en ligne de l\'organisation', 'Travailler en mode projet', 'Mettre à disposition des utilisateurs un service informatique']
     },
     {
       title: "Application station de ski",
       description:
-        "Application de gestion d’une station de ski, développée en Java pour Android, dans le cadre d’un projet de deuxième année.",
+        "Création d'une application android de gestion d'une station de ski, développée en Java pour Android connecté a une API Symfony, dans le cadre d'un projet de deuxième année.",
       url: '',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/ski.jpg`,
-      updatedAt: ''
+      updatedAt: '2025',
+      techSkills: ['Java', 'Android Studio', 'API', 'Symfony'],
+      competences: ['Travailler en mode projet', 'Mettre à disposition des utilisateurs un service informatique', 'Réaliser les tests d\'intégration']
     },
     {
       title: "Utilisation de GLPI",
       description:
-        "Création d’un script Python pour gérer l’envoi et la réception de tickets GLPI, dans le cadre d’un projet de première année.",
+        "Création d'un script Python pour gérer l'envoi et la réception de tickets GLPI, dans le cadre d'un projet de première année.",
       url: '',
       image: `${import.meta.env.BASE_URL}images/Glpi.png`,
-      updatedAt: ''
+      updatedAt: '2023 - 2024',
+      techSkills: ['Python', 'GLPI', 'API'],
+      competences: ['Gérer le patrimoine informatique', 'Répondre aux incidents et aux demandes d\'assistance']
     },
     {
       title: 'Stage Forapps',
@@ -90,43 +96,53 @@
       url: '',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/Forapps.png`,
-      updatedAt: ''
+      updatedAt: '2025',
+      techSkills: ['PowerApps', 'Power BI', 'CRM', 'Microsoft 365', 'JavaScript'],
+      competences: ['Organiser son développement professionnel', 'Mettre à disposition des utilisateurs un service informatique']
     },
     {
       title: 'Veille informationelle',
       description:
         "Réalisation d'une veille informationnelle sur les CMS.",
-      url: '',
+      url: `${import.meta.env.BASE_URL}images/VeilleInfo.pdf`,
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/Veille.png`,
-      updatedAt: ''
+      updatedAt: '2025',
+      techSkills: ['WordPress', 'Joomla', 'Drupal', 'Recherche'],
+      competences: ['Organiser son développement professionnel', 'Mettre en œuvre des outils et stratégies de veille informationnelle']
     },
     {
       title: 'Application Ciné',
       description:
-        "Réalisation d'une Création d'une application android de gestion de cinéma affichant les films et séries récemment sortis via une requête API. informationnelle sur les CMS.",
-      url: '',
+        "Création d'une application android de gestion de cinéma affichant les films et séries récemment sortis via une requête API.",
+      url: 'https://github.com/Zelledeudz/gestionFilm',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/AppCine.png`,
-      updatedAt: ''
+      updatedAt: '2024',
+      techSkills: ['Java', 'Android Studio', 'REST API', 'JSON'],
+      competences: ['Travailler en mode projet', 'Mettre à disposition des utilisateurs un service informatique']
     },
     {
-      title: 'Othello (reversi) ',
+      title: 'Othello (reversi)',
       description:
         "Création d'une application Android d'un jeu d'Othello",
-      url: '',
+      url: 'public/images',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/Othello.png`,
-      updatedAt: ''
+      updatedAt: '2025',
+      techSkills: ['Java', 'Android Studio', 'Algorithmes'],
+      competences: ['Travailler en mode projet', 'Développer une application']
     },
     {
-      title: 'Pronote like ',
+      title: 'Pronote like',
       description:
         "Création d'une application android qui simule le principe de Pronote avec gestion cours etc",
-      url: '',
+      url: 'https://github.com/Zelledeudz/pronoteLike',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/pronote.png`,
-      updatedAt: ''
+      updatedAt: '2024',
+      techSkills: ['Java', 'Android Studio', 'SQLite', 'UI/UX'],
+      competences: ['Travailler en mode projet', 'Mettre à disposition des utilisateurs un service informatique']
     },
     {
       title: 'Pierre Papier Ciseaux',
@@ -135,16 +151,31 @@
       url: '',
       linkText: 'Voir plus',
       image: `${import.meta.env.BASE_URL}images/shifumi.png`,
-      updatedAt: ''
+      updatedAt: '2025',
+      techSkills: ['Java', 'Android Studio', 'Nearby API', 'Bluetooth'],
+      competences: ['Travailler en mode projet', 'Développer une application']
     },
     {
-    title: "Fiche synthèse",
+      title: "Portfolio",
       description:
-        "recap",
+        "Création et hébergement de mon portfolio professionnel pour mettre en valeur mes compétences et projets.",
+      url: 'https://zelledeudz.github.io/Portfolio/',
+      linkText: 'Voir le site',
+      image: `${import.meta.env.BASE_URL}images/Portfolio.png`,
+      updatedAt: '2025',
+      techSkills: ['HTML', 'CSS', 'JavaScript', 'GitHub Pages', 'Astro'],
+      competences: ['Développer la présence en ligne de l\'organisation', 'Gérer son identité professionnelle', 'Développer son projet professionnel']
+    },
+    {
+      title: "Fiche synthèse",
+      description:
+        "Tableau de synthèse de mes réalisations professionnelles pour le BTS SIO option SLAM.",
       url: `${import.meta.env.BASE_URL}images/TabSynthese.pdf`,
-      linkText: 'Voir image',
+      linkText: 'Voir le PDF',
       image: `${import.meta.env.BASE_URL}images/ScreenTabSynthese.png`,
-      updatedAt: ''
+      updatedAt: '2025',
+      techSkills: ['Documentation', 'Synthèse', 'Analyse'],
+      competences: ['Organiser son développement professionnel', 'Développer son projet professionnel']
     },
   ];
   const socials = [
@@ -197,14 +228,10 @@
       <p
         class="flex items-center justify-center flex-1 mt-4 text-lg gap-x-2 text-gray-7 dark:text-gray-3"
       >
-        <span class="block i-fluent:location-48-regular"></span>
-        {place}
       </p>
       <p
         class="flex items-center justify-center flex-1 mt-4 text-lg gap-x-2 text-gray-7 dark:text-gray-3"
       >
-        <span class="block i-fluent:clock-48-regular"></span>
-        {timezone}
       </p>
     </div>
   </div>
@@ -220,7 +247,7 @@
     >
       Skills
     </h2>
-    <ul class="grid grid-cols-2 gap-4 text-lg text-center">
+    <ul class="grid grid-cols-2 gap-4 text-lg text-center md:grid-cols-3 lg:grid-cols-4">
       {#each skills as skill}
         <li class="flex items-center justify-center gap-x-2">
           {#if skill.icon}
@@ -266,28 +293,57 @@
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {#each works as work}
-        <div class="card mb-3 border rounded-lg overflow-hidden shadow-lg">
+        <div class="card mb-3 border rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
           {#if work.image}
             <a href={work.image} target="_blank" rel="noopener noreferrer">
               <img src={work.image} class="card-img-top w-full h-48 object-contain" alt={work.title}>
             </a>
           {/if}
-          <div class="card-body p-4">
+          <div class="card-body p-4 flex-grow flex flex-col">
             <h3 class="card-title text-2xl font-bold mb-2">{work.title}</h3>
             <p class="card-text mb-3">{work.description}</p>
-            {#if work.url}
-              <a
-                href={work.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-pink-6 dark:text-pink-4 hover:underline"
-              >
-                {work.linkText || "Voir le projet"}
-              </a>
+            
+            {#if work.techSkills && work.techSkills.length > 0}
+              <div class="mt-3">
+                <h4 class="text-lg font-semibold mb-2 text-gray-7 dark:text-gray-3">Technologies</h4>
+                <div class="flex flex-wrap gap-2">
+                  {#each work.techSkills as tech}
+                    <span class="bg-gray-2 dark:bg-gray-8 text-gray-8 dark:text-gray-2 px-2 py-1 rounded-md text-sm font-medium">
+                      {tech}
+                    </span>
+                  {/each}
+                </div>
+              </div>
             {/if}
-            {#if work.updatedAt}
-              <p class="card-text mt-3"><small class="text-gray-5 dark:text-gray-4">Mis à jour {work.updatedAt}</small></p>
+            
+            {#if work.competences && work.competences.length > 0}
+              <div class="mt-3">
+                <h4 class="text-lg font-semibold mb-2 text-pink-7 dark:text-pink-4">Compétences BTS SIO</h4>
+                <div class="flex flex-col gap-1">
+                  {#each work.competences as comp}
+                    <span class="bg-pink-1 dark:bg-pink-9 text-pink-9 dark:text-pink-1 px-2 py-1 rounded-md text-sm font-medium">
+                      {comp}
+                    </span>
+                  {/each}
+                </div>
+              </div>
             {/if}
+            
+            <div class="mt-4 flex flex-wrap justify-between items-center">
+              {#if work.url}
+                <a
+                  href={work.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-block text-white bg-pink-6 hover:bg-pink-7 dark:bg-pink-7 dark:hover:bg-pink-6 py-2 px-4 rounded-md transition-colors duration-300"
+                >
+                  {work.linkText || "Voir le projet"}
+                </a>
+              {/if}
+              {#if work.updatedAt}
+                <p class="card-text"><small class="text-gray-5 dark:text-gray-4">Période: {work.updatedAt}</small></p>
+              {/if}
+            </div>
           </div>
         </div>
       {/each}
