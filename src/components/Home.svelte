@@ -186,7 +186,7 @@
     },
     {
       name: 'Curriculum Vitae',
-      url: '${import.meta.env.BASE_URL}images/CV_Alternance_Thomas.pdf'
+      url: '${import.meta.env.BASE_URL}images/CV_Alternance_Thomas.pdf',
       icon: 'i-simple-icons:readthedocs',
     },
   ];
