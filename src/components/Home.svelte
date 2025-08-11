@@ -8,10 +8,10 @@
 
   const name = 'Thomas CHAGNEAU';
   const introduction =
-    "Bienvenue sur mon Portfolio ! Je suis étudiant en bac+2 développement informatique ";
+    "Bienvenue sur mon Portfolio ! Je suis étudiant en recherche d'alternance pour bac+3 ";
   const avatar = `${import.meta.env.BASE_URL}images/moiCouleur.png`; // Please enter the absolute path (including subpaths)
   const about =
-    "Je suis étudiant en développement d'applications mobiles, actuellement en Bac +2. " + " Passionné par la technologie et l'innovation j'ai de l'expérience dans la création d'application mobile sous android." + " Toujours curieux, j'apprends en continu pour améliorer mes compétences et rester à jour dans ce domaine en constante évolution";
+    "Je suis étudiant en développement d'applications mobiles, actuellement en recherche d'une alternance en Bac +3 avec Sup de Vinci. " + " Passionné par la technologie et l'innovation j'ai de l'expérience dans la création d'application mobile sous android." + " Toujours curieux, j'apprends en continu pour améliorer mes compétences et rester à jour dans ce domaine en constante évolution";
   const experiences = [
     {
       title: 'Stage découverte developpement web',
@@ -186,7 +186,7 @@
     },
     {
       name: 'Curriculum Vitae',
-      url: 'https://github.com/Zelledeudz',
+      url: '${import.meta.env.BASE_URL}images/CV_Alternance_Thomas.pdf'
       icon: 'i-simple-icons:readthedocs',
     },
   ];
@@ -318,7 +318,7 @@
             
             {#if work.competences && work.competences.length > 0}
               <div class="mt-3">
-                <h4 class="text-lg font-semibold mb-2 text-pink-7 dark:text-pink-4">Compétences BTS SIO</h4>
+                <h4 class="text-lg font-semibold mb-2 text-pink-7 dark:text-pink-4">Compétences</h4>
                 <div class="flex flex-col gap-1">
                   {#each work.competences as comp}
                     <span class="bg-pink-1 dark:bg-pink-9 text-pink-9 dark:text-pink-1 px-2 py-1 rounded-md text-sm font-medium">
