@@ -47,6 +47,17 @@
   ];
   const works = [
     {
+      title: "PokeDev",
+      description:
+        "Création en React d'un site permettant de liste, faire apparaitre aléatoirement ou combattre des pokémons via des requêtes API dans le cadre d'un cours a Sup de Vinci.",
+      url: 'https://github.com/Zelledeudz/PokeDev',
+      linkText: 'Voir plus',
+      image: `${import.meta.env.BASE_URL}images/imagePokeDev.png`,
+      updatedAt: '2023 - 2024',
+      techSkills: ['HTML', 'React', 'CSS', 'JavaScript'],
+      competences: ['Participer à l\'évolution d\'un site Web']
+    },
+    {
       title: "Site vitrine GRAD",
       description:
         "Site vitrine d'une entreprise d'installation de terrasses. Réalisé en HTML, PHP, CSS, JavaScript et Bootstrap dans le cadre d'un devoir de première année.",
